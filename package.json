@@ -1,6 +1,6 @@
 {
   "name": "hasProp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "if property didn't existed,throw error",
   "main": "index.js",
   "repository": "https://github.com/chargoyao/hasProp.git",
