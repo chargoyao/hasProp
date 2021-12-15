@@ -7,7 +7,7 @@
   "author": "chargo <chargoyao@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "npm run test && tsc",
     "test": "jest"
   },
   "files": [

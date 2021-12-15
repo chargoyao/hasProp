@@ -10,6 +10,6 @@ describe('test hasProp function', () => {
     const proxy: {[key: string]: any} = hasProp({
       age: 100
     });
-    expect(() => {proxy.name}).toThrow('unknown property name');
+    expect(() => {proxy.name}).toThrow();
   });
 });
