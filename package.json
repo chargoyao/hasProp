@@ -1,8 +1,9 @@
 {
-  "name": "hasProp",
-  "version": "0.1.1",
+  "name": "ifhasprop",
+  "version": "0.1.2",
   "description": "if property didn't existed,throw error",
   "main": "index.js",
+  "module": "index.js",
   "repository": "https://github.com/chargoyao/hasProp.git",
   "author": "chargo <chargoyao@gmail.com>",
   "license": "MIT",
@@ -10,6 +11,7 @@
     "build": "npm run test && tsc",
     "test": "jest"
   },
+  "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
