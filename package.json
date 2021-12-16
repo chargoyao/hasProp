@@ -8,8 +8,9 @@
   "author": "chargo <chargoyao@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "npm run test && tsc",
-    "test": "jest"
+    "build": "npm run test && npm run clean && tsc",
+    "test": "jest",
+    "clean": "rimraf dist"
   },
   "typings": "dist/index.d.ts",
   "files": [
@@ -19,6 +20,7 @@
     "@types/jest": "^27.0.3",
     "cz-conventional-changelog": "^3.3.0",
     "jest": "^27.4.5",
+    "rimraf": "^3.0.2",
     "ts-jest": "^27.1.1",
     "typescript": "^4.5.4"
   },
