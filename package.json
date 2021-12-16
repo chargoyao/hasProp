@@ -1,5 +1,5 @@
 {
-  "name": "ifhasprop",
+  "name": "@chargo/ifhasprop",
   "version": "0.1.2",
   "description": "if property didn't existed,throw error",
   "main": "index.js",
